@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+}
+#score {
+	color: white;
+	text-align: center;
+}
+#vaszon {
+	border: 2px solid #ccc;
+	position: relative;
+	left: calc(50% - 400px);
+	background: url("bg.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+
+.animatedBg {
+	  animation: animatedBg 100s linear infinite;
+}
+
+@keyframes animatedBg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 8000px;
+  }
+}
